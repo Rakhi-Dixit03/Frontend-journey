@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "Lato", sans-serif;
+  background: #e04a89;
+background: radial-gradient(circle,rgba(224, 74, 137, 1) 0%, rgba(69, 130, 196, 1) 100%);
+
+   
+}
+
+
+#hero{
+/* margin-bottom:1.5rem; */
+display: flex;
+/* color:#fff; */color: black;
+justify-content:space-between;
+/* background: #723d91; */
+/* background: linear-gradient(90deg, rgba(114, 61, 145, 1) 0%, rgba(201, 62, 167, 1) 44%, rgba(131, 0, 148, 1) 82%); */
+
+background: #EEAECA;
+background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+padding:0.8rem; 
+}
+
+
+
+.logo{
+     font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+ 
+
+.logo{
+    font-size:25px;
+}
+.logo:hover{
+
+}
+.register{
+font-size:20px;
+}
+.register span{
+    margin:0 1.5rem;
+}
+.register span:hover{
+     border: 0px solid black;
+    padding:0.3rem 0.8rem ;
+    background-color: rgb(116, 176, 240);
+    border-radius:20px;
+    box-shadow:0 0 5px 3px;
+    color: black;
+    box-shadow:0 0 4px 8px rgb(155, 194, 237);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.mid{
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin:4rem 4.5rem;
+
+
+}
+
+.title{
+  align-self:flex-start;
+  
+
+}
+#tit-p{
+    font-size:larger;
+    font-style: italic;
+}
+.left-content{
+align-self:last baseline;
+margin:2rem 0 ;
+margin-bottom:3rem;
+
+}
+
+img{
+    width:75%;
+    height:auto;
+   margin-left:1rem ;
+    border-radius:10px ;
+    box-shadow:6px 6px 10px 16px black;
+}
+h2{
+     margin-left:14%;
+    padding-bottom:1.5rem;
+
+}
+.SignUpPage{
+    /* margin-right:2rem; */
+    border-radius:20px solid black;
+    box-shadow:0 0 30px rgba(0,0,0,0,1) ;
+    background:rgba(255,255,255,0.3);
+    backdrop-filter:blur(10px) ; /* blur what's behind */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2);/* glass border */
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+input{
+
+padding:0.5rem 2.5rem;
+border-style: none;
+/* border:1px solid #ccc; */
+border-radius: 20px;
+/* width:100%; */
+margin-bottom: 1rem;
+margin-top:0.3rem ;
+background: #ebc0d2;
+background: radial-gradient(circle, rgba(235, 192, 210, 1) 0%, rgba(175, 197, 227, 1) 100%);
+
+}
+input:focus{
+    
+  box-shadow: 0 0 10px 5px rgb(246, 179, 189);
+  /* border:2px solid rgb(243, 176, 186); */
+}
+.btn{
+display: flex;
+flex-direction: column;
+    
+}
+button{
+   
+padding:0.6rem 1rem;
+border:1px solid #ccc;
+border-radius: 20px;
+margin-bottom: 1rem;
+/* margin-left:4rem ; */
+
+background: #c9638a;
+background: radial-gradient(circle, rgba(201, 99, 138, 1) 0%, rgba(148, 141, 204, 1) 70%, rgba(106, 152, 204, 1) 100%);
+
+}
+button:hover{
+ 
+    border: 0px solid black;
+    font-size:0.9rem ;
+    color:rgb(16, 15, 15);
+    /* border-radius: 15px; */
+    box-shadow:0 0 5px 3px rgb(130, 172, 219);
+}
+
+
+.google-login{
+/* margin-left:2.5rem ; */
+
+}
+
+h3{
+
+text-align: center;
+margin-top:2rem;
+
+
+}
+p{
+text-align: center;
+/* margin-top:5px; */
+} 
+
+i{
+    margin:5px;
+}
+.mission p,h2{
+    text-align:initial;
+    margin:1rem 3rem ;
+
+}
+.mission p{
+    font-size:18px;
+}
+/* .mission h2::first-letter{
+color:rgb(62, 165, 234);
+} */
+/* .mission p,h2{
+justify-content: flex-start;
+
+} */
+
+@media(max-width:780px){
+
+.mid{
+    flex-direction: column;
+}
+.register span{
+    margin:0 0.8rem;
+    font-size:18px ;
+}
+.logo{
+font-size: 22px;
+}
+}
+

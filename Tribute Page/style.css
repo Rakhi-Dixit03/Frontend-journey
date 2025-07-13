@@ -1,0 +1,205 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+   font-family:'Lato', sans-serif ;
+   background-color:#fff4e6;
+   color:#1c1c1c ;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    font-family: 'Oswald';
+   
+}
+
+h1{
+  margin:30px ;
+  
+}
+img{
+max-width: 100%;
+border-radius:1rem ;
+box-shadow:0 2px 8px rgba(0,0,0,0.08) ;
+transition: all 0.3s ease-in-out;
+
+}
+
+/* img:hover{
+    transform: scale(1.08);
+} */
+blockquote{
+
+color:#c1121f;
+margin:30px;
+
+}
+
+.timeline-container{
+  position:relative;
+  padding:50px 0;
+  width: 90%;
+
+}
+.timeline-container::before{
+    content: "";
+    position: absolute;
+    background-color:#c1121f;
+   top:0;
+   bottom:0;
+   left:50%;
+   width:4px;
+   transform: translateX(-50%);
+
+}
+
+
+.timeline-event{
+
+position:relative;
+width:25rem;
+padding: 20px;
+background:#fff0d9;
+border-radius:8px ;
+margin:30px 0;
+box-shadow:0 2px 10px rgba(0,0,0,0.08) ;
+transition: all 0.3s ease-in-out;
+}
+
+
+
+.timeline-event.left{
+
+left:0;
+text-align:right ;
+
+}
+.timeline-event.right{
+
+    left:51%;
+    text-align:left;
+}
+
+
+
+
+.timeline-event::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  background-color: #c1121f;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-event:hover{
+  transform: translateY(-10px);
+    transform: scale(1.04);
+
+
+}
+.timeline-event.left::before {
+  right: -10px;
+}
+
+.timeline-event.right::before {
+  left: -12px;
+}
+
+.ideology-card{
+
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+
+.card{
+padding:1rem ;
+border-radius:1rem ;
+background-color:#fce7c7;
+transition: all 0.3s ease-in-out;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+flex-basis:300px ;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transform: scale(1.04);
+
+
+}
+
+
+/* .timeline-event{
+
+width:100%;
+left:0%;
+
+} */
+
+
+@media screen and (max-width: 768px) {
+  .timeline-container::before {
+    left: 10px; /* Move the vertical line to the left side */
+  }
+
+  .timeline-event {
+    width: 100%;
+    margin-left: 30px; /* leave space for line */
+    left: 0 !important;
+    text-align: left !important;
+  }
+
+  .timeline-event.left,
+  .timeline-event.right {
+    left: 0;
+  }
+
+  .timeline-event::before {
+    left: -20px; /* place circle on line */
+    right: auto;
+  }
+
+.card{
+
+   flex-direction: column ;
+   align-items: center;
+   
+
+}
+}
+
+@media screen and (max-width: 480px) {
+  h3{
+    font-size: 1.2rem;
+  }
+
+  p{
+    font-size: 0.95rem;
+  }
+}
+
+a{
+text-decoration:none;
+color:#5a66ee
+
+}
+
+.explore{
+    margin:2rem ;
+    text-align: center;
+}
+.explore h2{
+
+   color: #1c1c1c;
+
+}
