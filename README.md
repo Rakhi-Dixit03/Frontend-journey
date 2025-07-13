@@ -6,10 +6,10 @@ Welcome to my frontend development journey! This repository contains my practice
 
 | Project Name                 | Description                | Live Demo                           |
 |------------------------------|---------------------------|---------------------|
-| Tribute Page  |A responsive tribute page honoring the legacy and sacrifices of freedom fighter Bhagat Singh. |[View](https://yourusername.github.io/food-delivery-landing-page) |
-| MindToCode Landing Page   | Responsive landing page for a website. | [View](https://yourusername.github.io/portfolio-landing-page) |
-| Login Page    |Simple yet elegant login page with responsive design.| [View](https://yourusername.github.io/product-showcase) |
-| Musical Album |A stylish musical landing page designed to highlight a curated album collection with a clean UI | [View](https://yourusername.github.io/product-showcase)|
+| Tribute Page  |A responsive tribute page honoring the legacy and sacrifices of freedom fighter Bhagat Singh. |[View]( https://rakhi-dixit03.github.io/Frontend-journey/Tribute Page/) |
+| MindToCode Landing Page   | Responsive landing page for a website. | [View]( https://rakhi-dixit03.github.io/Frontend-journey/MindToCode-landing/) |
+| Login Page    |Simple yet elegant login page with responsive design.| [View]( https://rakhi-dixit03.github.io/Frontend-journey/login Page/) |
+| Musical Album |A stylish musical landing page designed to highlight a curated album collection with a clean UI | [View]( https://rakhi-dixit03.github.io/Frontend-journey/Music-landing/)|
 
 ## 🧠 Technologies Used
 - HTML5
